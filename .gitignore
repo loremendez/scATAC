@@ -1,3 +1,10 @@
+# Data
+**/adult_mouse_brain
+
+#Non useful files
+*.html
+**/other_notebooks
+
 # History files
 .Rhistory
 .Rapp.history
