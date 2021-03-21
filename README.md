@@ -10,20 +10,20 @@ This is a collection of notebooks based on scATAC-seq vignettes from [Signac](ht
 <dd>Quality checks, filters, dimensional reduction and gene activity quantification.</dd>
 <dt>1. Data Integration</dt>
 <dd>Add scRNA-seq information and compute co-embedding.</dd>
-<dt>**2. Coaccessibility**</dt>
+<dt>2. Coaccessibility</dt>
 <dd>Scores co-accessibility between peaks to predict cis-regulatory interactions, such as those between promoters and enhancers.</dd>
-<dt>**2.1 Trajectories**</dt>
+<dt>2.1 Trajectories</dt>
 <dd>Tries to infer trajectories using chromatin accessibility to compute pseudotime. (Under review)</dd>
-<dt>**3. Differentially Accessible Peaks**</dt>
+<dt>3. Differentially Accessible Peaks</dt>
 <dd>Differences between chromatin accessibility in groups or clusters of cells.</dd>
-<dt>**4. Motif Analysis**</dt>
+<dt>4. Motif Analysis</dt>
 <dd>Overrepresented motifs in a cluster of cells in comparison to another cluster of cells. Computes motif activities using [ChromVAR](https://www.nature.com/articles/nmeth.4401).</dd>
-<dt>**5. Transcription Factor Footprints**</dt>
+<dt>5. Transcription Factor Footprints</dt>
 <dd>Finds TF footprints. *Similarly to nucleosomes, bound TFs hinder cleavage of DNA, resulting in defined regions of decreased signal strength within larger regions of high signal-known as footprints*, [Bentsen et. al, 2020](https://www.nature.com/articles/s41467-020-18035-1).</dd>
 </dl>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Environment
 
 First, we need to set up the environment.
 
@@ -35,7 +35,7 @@ For the next steps do not update any of the suggested packages at the end of eac
 
 2. Install Signac, genome assembly and gene annotation packages following the [instructions on the website](https://satijalab.org/signac/articles/install.html).<br>
 
-3. Install additional Seurat packages in R console:
+3. Install additional Seurat packages in R console:<br>
 `if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }`<br>
@@ -46,9 +46,10 @@ For the next steps do not update any of the suggested packages at the end of eac
 `BiocManager::install(c("motifmatchr", "TFBSTools", "JASPAR2020", "chromVAR"))`<br>
 
 For this step, agree to downgrade packages if necessary:
+
 5. Install monocle3 for trajectory analysis:
 with conda: `conda install -c bioconda r-monocle3`
 or follow the [instructions on the website](https://cole-trapnell-lab.github.io/monocle3/docs/installation/).
 
-6. Install Cicero for co-accessibility analysis:
+6. Install Cicero for co-accessibility analysis:<br>
 `remotes::install_github("cole-trapnell-lab/cicero-release", ref = "monocle3")`<br>
