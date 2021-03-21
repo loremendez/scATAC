@@ -5,26 +5,22 @@ Analysis of scATAC-seq data.
 
 This is a collection of notebooks based on scATAC-seq vignettes from [Signac](https://satijalab.org/signac/), [Seurat](https://satijalab.org/seurat/), [Cicero](https://cole-trapnell-lab.github.io/cicero-release/docs_m3/) and [Monocle3](https://cole-trapnell-lab.github.io/monocle3/docs/introduction/).
 
-**0. Pre-analysis**<br>
-Quality checks, filters, dimensional reduction and gene activity quantification.
-
-**1. Data Integration**
-Add scRNA-seq information and compute co-embedding.
-
-**2. Coaccessibility**
-Scores co-accessibility between peaks to predict cis-regulatory interactions, such as those between promoters and enhancers.
-
-**2.1 Trajectories**
-Tries to infer trajectories using chromatin accessibility to compute pseudotime. (Still reviewing it)
-
-**3. Differentially Accessible Peaks**
-Differences between chromatin accessibility in groups or clusters of cells.
-
-**4. Motif Analysis**
-Overrepresented motifs in a cluster of cells in comparison to another cluster of cells. Computes motif activities using [ChromVAR](https://www.nature.com/articles/nmeth.4401).
-
-**5. Transcription Factor Footprints**
-Finds TF footprints. *Similarly to nucleosomes, bound TFs hinder cleavage of DNA, resulting in defined regions of decreased signal strength within larger regions of high signal-known as footprints*, [Bentsen et. al, 2020](https://www.nature.com/articles/s41467-020-18035-1).
+<dl>
+<dt>**0. Pre-analysis**</dt>
+<dd>Quality checks, filters, dimensional reduction and gene activity quantification.</dd>
+<dt>**1. Data Integration**</dt>
+<dd>Add scRNA-seq information and compute co-embedding.</dd>
+<dt>**2. Coaccessibility**</dt>
+<dd>Scores co-accessibility between peaks to predict cis-regulatory interactions, such as those between promoters and enhancers.</dd>
+<dt>**2.1 Trajectories**</dt>
+<dd>Tries to infer trajectories using chromatin accessibility to compute pseudotime. (Under review)</dd>
+<dt>**3. Differentially Accessible Peaks**</dt>
+<dd>Differences between chromatin accessibility in groups or clusters of cells.</dd>
+<dt>**4. Motif Analysis**</dt>
+<dd>Overrepresented motifs in a cluster of cells in comparison to another cluster of cells. Computes motif activities using [ChromVAR](https://www.nature.com/articles/nmeth.4401).</dd>
+<dt>**5. Transcription Factor Footprints**</dt>
+<dd>Finds TF footprints. *Similarly to nucleosomes, bound TFs hinder cleavage of DNA, resulting in defined regions of decreased signal strength within larger regions of high signal-known as footprints*, [Bentsen et. al, 2020](https://www.nature.com/articles/s41467-020-18035-1).</dd>
+</dl>
 
 <!-- GETTING STARTED -->
 ## Getting Started
