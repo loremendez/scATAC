@@ -45,7 +45,7 @@ For the next steps do not update any of the suggested packages at the end of eac
 4. Install packages for motif and transcription factor analysis:
 `BiocManager::install(c("motifmatchr", "TFBSTools", "JASPAR2020", "chromVAR"))`<br>
 
-For this step, agree to downgrade packages if necessary:
+For the following steps, agree to downgrade packages if necessary:
 
 5. Install monocle3 for trajectory analysis:
 with conda: `conda install -c bioconda r-monocle3`
