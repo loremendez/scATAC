@@ -6,9 +6,9 @@ Analysis of scATAC-seq data.
 This is a collection of notebooks based on scATAC-seq vignettes from [Signac](https://satijalab.org/signac/), [Seurat](https://satijalab.org/seurat/), [Cicero](https://cole-trapnell-lab.github.io/cicero-release/docs_m3/) and [Monocle3](https://cole-trapnell-lab.github.io/monocle3/docs/introduction/).
 
 <dl>
-<dt>**0. Pre-analysis**</dt>
+<dt>0. Pre-analysis</dt>
 <dd>Quality checks, filters, dimensional reduction and gene activity quantification.</dd>
-<dt>**1. Data Integration**</dt>
+<dt>1. Data Integration</dt>
 <dd>Add scRNA-seq information and compute co-embedding.</dd>
 <dt>**2. Coaccessibility**</dt>
 <dd>Scores co-accessibility between peaks to predict cis-regulatory interactions, such as those between promoters and enhancers.</dd>
