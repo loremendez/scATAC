@@ -17,9 +17,9 @@ This is a collection of notebooks based on scATAC-seq vignettes from [Signac](ht
 <dt>3. Differentially Accessible Peaks</dt>
 <dd>Differences between chromatin accessibility in groups or clusters of cells.</dd>
 <dt>4. Motif Analysis</dt>
-<dd>Overrepresented motifs in a cluster of cells in comparison to another cluster of cells. Computes motif activities using [ChromVAR](https://www.nature.com/articles/nmeth.4401).</dd>
+<dd>Overrepresented motifs in a cluster of cells in comparison to another cluster of cells. Computes motif activities using <a href=https://www.nature.com/articles/nmeth.4401>ChromVAR</a>.</dd>
 <dt>5. Transcription Factor Footprints</dt>
-<dd>Finds TF footprints. *Similarly to nucleosomes, bound TFs hinder cleavage of DNA, resulting in defined regions of decreased signal strength within larger regions of high signal-known as footprints*, [Bentsen et. al, 2020](https://www.nature.com/articles/s41467-020-18035-1).</dd>
+<dd>Finds TF footprints. *Similarly to nucleosomes, bound TFs hinder cleavage of DNA, resulting in defined regions of decreased signal strength within larger regions of high signal-known as footprints*, <a href=https://www.nature.com/articles/s41467-020-18035-1>Bentsen et. al, 2020</a>.</dd>
 </dl>
 
 <!-- GETTING STARTED -->
