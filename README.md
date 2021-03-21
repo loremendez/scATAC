@@ -53,3 +53,14 @@ or follow the [instructions on the website](https://cole-trapnell-lab.github.io/
 
 6. Install Cicero for co-accessibility analysis:<br>
 `remotes::install_github("cole-trapnell-lab/cicero-release", ref = "monocle3")`<br>
+
+To configurate Jupyter:
+
+7. Install jupyter-lab in conda:<br>
+`conda install jupyterlab`
+
+8. Install IRkernel in R console:<br>
+`install.packages('IRkernel')`
+
+9. Add R-kernel to jupyter:<br>
+`IRkernel::installspec(name='atac_seq', displayname='atac_seq')`
